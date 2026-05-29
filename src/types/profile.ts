@@ -24,6 +24,7 @@ export type ToggleProps = {
 export type SecurityProps = {
   icon: React.ReactNode;
   title: string;
+  onClick?: () => void;
 };
 
 export type ItemProps = {
